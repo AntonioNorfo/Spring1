@@ -12,6 +12,10 @@ import java.util.Arrays;
 @Configuration
 public class PizzeriaConfig {
 
+    public static int getCostoCoperto() {
+        return 2;
+    }
+
     @Bean
     public Topping prosciutto() {
         return new Topping("Prosciutto", 2.00, "Proteine 12g, Grassi 15g");

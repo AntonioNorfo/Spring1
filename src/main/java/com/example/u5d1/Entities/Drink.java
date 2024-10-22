@@ -1,12 +1,5 @@
 package com.example.u5d1.Entities;
 
-import lombok.Data;
-import lombok.Getter;
-import lombok.Setter;
-
-@Getter
-@Setter
-@Data
 public class Drink {
     private String nome;
     private double prezzo;
@@ -22,7 +15,11 @@ public class Drink {
         return nome;
     }
 
-    public Object getPrezzo() {
+    public double getPrezzo() {
         return prezzo;
+    }
+
+    public String getInformazioniNutrizionali() {
+        return informazioniNutrizionali;
     }
 }

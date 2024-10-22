@@ -1,7 +1,5 @@
 package com.example.u5d1.Entities;
 
-import com.example.u5d1.Entities.Pizza;
-
 import java.util.List;
 
 public class Menu {
@@ -20,5 +18,13 @@ public class Menu {
 
         System.out.println("\nBevande:");
         bevande.forEach(drink -> System.out.println(drink.getNome() + " - Prezzo: €" + drink.getPrezzo()));
+    }
+
+    public List<Pizza> getPizze() {
+        return pizze;
+    }
+
+    public List<Drink> getBevande() {
+        return bevande;
     }
 }
