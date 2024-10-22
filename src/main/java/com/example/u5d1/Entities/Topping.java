@@ -1,8 +1,8 @@
 package com.example.u5d1.Entities;
 
 public class Topping {
-    private String nome;
     private double prezzo;
+    private String nome;
     private String informazioniNutrizionali;
 
     public Topping(String nome, double prezzo, String informazioniNutrizionali) {
@@ -11,12 +11,12 @@ public class Topping {
         this.informazioniNutrizionali = informazioniNutrizionali;
     }
 
-    public String getNome() {
-        return nome;
-    }
-
     public double getPrezzo() {
         return prezzo;
+    }
+
+    public String getNome() {
+        return nome;
     }
 
     public String getInformazioniNutrizionali() {

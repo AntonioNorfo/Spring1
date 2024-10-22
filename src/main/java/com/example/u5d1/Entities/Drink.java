@@ -18,9 +18,11 @@ public class Drink {
         this.informazioniNutrizionali = informazioniNutrizionali;
     }
 
-    public boolean getNome() {
+    public String getNome() {
+        return nome;
     }
 
     public Object getPrezzo() {
+        return prezzo;
     }
 }

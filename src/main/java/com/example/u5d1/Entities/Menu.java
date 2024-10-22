@@ -1,5 +1,7 @@
 package com.example.u5d1.Entities;
 
+import com.example.u5d1.Entities.Pizza;
+
 import java.util.List;
 
 public class Menu {
